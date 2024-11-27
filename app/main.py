@@ -9,6 +9,8 @@ from pydantic import BaseModel
 from fastapi.responses import JSONResponse
 from slowapi import Limiter
 from slowapi.util import get_remote_address
+import pandas as pd
+import numpy as np
 
 # Initialize FastAPI app
 app = FastAPI()
@@ -137,3 +139,25 @@ async def limited_endpoint(request: Request):
 def read_root():
     return {"message": "Data Visulaization"}
 
+
+@app.get("/data-visualization")
+def data_visualization():
+    # Example: Generate a simple data set and some statistics
+    data = pd.DataFrame({
+        'x': np.linspace(0, 10, 100),
+        'y': np.sin(np.linspace(0, 10, 100))
+    })
+    
+    # Example: Return statistical information
+    statistics = {
+        "mean": data['y'].mean(),
+        "std": data['y'].std(),
+        "min": data['y'].min(),
+        "max": data['y'].max()
+    }
+
+    return {
+        "message": "Data Visualization",
+        "statistics": statistics,
+        "data": data.to_dict(orient="records")  # Returns the data as a list of dicts
+    }
