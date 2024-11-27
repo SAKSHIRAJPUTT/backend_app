@@ -118,38 +118,3 @@ The purpose of this project is to provide a data visualization dashboard where u
 1. **Start the backend**: Ensure that your backend is running and listening for requests.
 2. **Start the frontend**: Run `npm start` in the `frontend` directory to launch the React application.
 3. Visit `http://localhost:3000` to interact with the dashboard. The app will fetch data from the backend API and display it in visual charts.
-
----
-
-## Contributing
-
-We welcome contributions to this project! If you'd like to contribute, follow these steps:
-
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature/your-feature`).
-3. Make your changes.
-4. Commit your changes (`git commit -am 'Add your feature'`).
-5. Push to the branch (`git push origin feature/your-feature`).
-6. Create a new pull request.
-
----
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-## Acknowledgments
-
-- Thanks to the open-source community for providing frameworks and libraries used in this project.
-- Special thanks to [React](https://reactjs.org/), [Flask](https://flask.palletsprojects.com/), [Chart.js](https://www.chartjs.org/), and [JWT](https://jwt.io/) for their amazing tools.
-
----
-
-### Notes:
-
-- This README assumes a typical stack setup for backend and frontend with JWT authentication and data visualization via React. You can modify it based on your actual project setup.
-- If you're using a different setup for the backend (e.g., Django or Node.js), make sure to adjust the instructions accordingly.
-
-Let me know if you need further adjustments or details added to the README!
