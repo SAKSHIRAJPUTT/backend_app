@@ -35,7 +35,7 @@ The purpose of this project is to provide a data visualization dashboard where u
   - Axios (for API requests)
 
 - **Database**: 
-  - PostgreSQL or SQLite (depending on your choice)
+  - PostgreSQL or SQLite 
 
 - **Authentication**:
   - JWT (JSON Web Tokens)
