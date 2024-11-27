@@ -1,8 +1,10 @@
+
 import React, { useEffect, useState } from 'react';
 import { Bar } from 'react-chartjs-2';  // Import Bar chart component from react-chartjs-2
 import { Chart as ChartJS, CategoryScale, LinearScale, BarElement, Title, Tooltip, Legend } from 'chart.js';
+import React from 'react';
+import { Line } from 'react-chartjs-2';
 
-// Register chart.js components
 ChartJS.register(CategoryScale, LinearScale, BarElement, Title, Tooltip, Legend);
 
 const UserDataChart = () => {
