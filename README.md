@@ -83,7 +83,7 @@ The purpose of this project is to provide a data visualization dashboard where u
    python run.py  
  
 
-7. The backend server will be running on `[http://localhost:500](http://127.0.0.1:8000/)0` (or the configured port).
+7. The backend server will be running on `[http://localhost:500](http://127.0.0.1:8000/) http://127.0.0.1:8000/docs` (or the configured port).
 
 ### Frontend Setup
 
