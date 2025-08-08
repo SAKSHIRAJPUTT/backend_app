@@ -1,4 +1,4 @@
-# Project Name: Backend and Frontend Data Analysis Dashboard
+DRDO Backend and Frontend Data Analysis Dashboard
 
 This is a full-stack web application that combines backend services with a frontend dashboard for data analysis and visualization. The backend handles user authentication, data processing, and provides APIs for the frontend. The frontend displays user data and visualizations using charts.
 
